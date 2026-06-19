@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #004080;
+    color: white;
+    padding: 15px;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav input {
+    margin-left: auto;
+    padding: 8px;
+}
+
+nav button {
+    padding: 8px 12px;
+}
+
+.hero {
+    height: 80vh;
+
+    background-image: url("travel_bg.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.page-content {
+    padding: 40px;
+    height: 80vh;
+    color: white;
+    background-image: url("travel_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 10px;
+}
+
+#results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+    padding: 30px;
+}
+
+.result-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.result-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+
+    <nav>
+        <h2>TravelBloom</h2>
+
+        <a href="travel_recommendation.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+
+        <input type="text" id="searchInput" placeholder="Search">
+        <button onclick="searchRecommendations()">Search</button>
+        <button onclick="clearResults()">Reset</button>
+    </nav>
+
+    <section class="hero">
+        <h1>Explore Your Dream Destination</h1>
+        <p>
+            Discover beaches, temples, and countries around the world.
+            Let TravelBloom help you plan your next unforgettable journey.
+        </p>
+    </section>
+
+    <section id="results"></section>
+
+    <script src="travel_recommendation.js"></script>
+
+</body>
+</html>
